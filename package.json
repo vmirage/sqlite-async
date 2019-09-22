@@ -23,10 +23,11 @@
     "url": "https://github.com/fhellwig/sqlite-async/issues"
   },
   "homepage": "https://github.com/fhellwig/sqlite-async#readme",
-  "dependencies": {
-    "sqlite3": "^4.0.9"
+  "peerDependencies": {
+    "sqlite3": "^4.1.0"
   },
   "devDependencies": {
+    "sqlite3": "^4.1.0",
     "mocha": "^6.2.0"
   }
 }
